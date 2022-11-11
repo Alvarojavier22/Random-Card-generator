@@ -5,11 +5,15 @@ import "./style.css";
 import "./assets/img/rigo-baby.jpg";
 import "./assets/img/4geeks.ico";
 
+document.querySelector("#btn").addEventListener("click", generateCard);
+
 window.onload = function() {
   //write your code here
+
   generateCard();
   document.getElementById("main").style.display = "block";
   document.body.removeChild(document.getElementById("cargando"));
+  setInterval(generateCard, 10000);
 };
 
 function generateCard() {

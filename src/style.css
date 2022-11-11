@@ -18,7 +18,7 @@ body {
   background-color: white;
   border-color: black;
   border-style: solid;
-  border-width: 8px 8px 2px 2px;
+  border-width: 2px 4px 4px 2px;
 }
 
 #value {
@@ -28,4 +28,13 @@ body {
 
 #bottom {
   transform: rotate(180deg);
+}
+
+h1 {
+  color: black;
+}
+
+#btn {
+  margin-top: 20px;
+  border-radius: 10px;
 }
