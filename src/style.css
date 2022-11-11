@@ -8,7 +8,7 @@ body {
   padding-top: 20px;
 }
 
-.card {
+#card {
   max-width: 150px;
   min-height: 200px;
   margin: auto;
@@ -18,14 +18,14 @@ body {
   background-color: white;
   border-color: black;
   border-style: solid;
-  border-width: 2px 8px 8px 2px;
+  border-width: 8px 8px 2px 2px;
 }
 
-.value {
+#value {
   font-size: 3em;
   text-align: center;
 }
 
-.bottom {
+#bottom {
   transform: rotate(180deg);
 }
